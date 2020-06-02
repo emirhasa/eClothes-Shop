@@ -1,0 +1,19 @@
+.sign-in {
+    max-width: 25vw;
+    display: flex;
+    flex-direction: column;
+
+    .title {
+        margin: 10px 0;
+    }
+
+    .sign-in-buttons {
+        display: flex;
+        justify-content: space-between;
+        overflow: hidden;
+
+        .custom-button {
+            width: 48%;
+        }
+    }
+}
